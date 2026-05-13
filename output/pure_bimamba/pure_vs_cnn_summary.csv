@@ -1,0 +1,3 @@
+name,n_params,val_acc,best_epoch
+Pure BiMamba (n_cnn=0),152641,0.914962,14
+CNN-BiMamba tuned (n_cnn=4),265921,0.923848,23

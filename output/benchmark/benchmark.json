@@ -1,0 +1,72 @@
+[
+  {
+    "name": "ANN",
+    "type": "deep",
+    "n_params": 9473,
+    "batch_ms": 0.13297557830810547,
+    "sample_ms": 0.002077743411064148
+  },
+  {
+    "name": "CNN",
+    "type": "deep",
+    "n_params": 75393,
+    "batch_ms": 0.7238912582397461,
+    "sample_ms": 0.011310800909996033
+  },
+  {
+    "name": "LSTM",
+    "type": "deep",
+    "n_params": 101633,
+    "batch_ms": 2.756071090698242,
+    "sample_ms": 0.043063610792160034
+  },
+  {
+    "name": "BiGRU",
+    "type": "deep",
+    "n_params": 234497,
+    "batch_ms": 1.8695640563964844,
+    "sample_ms": 0.02921193838119507
+  },
+  {
+    "name": "BiLSTM",
+    "type": "deep",
+    "n_params": 268801,
+    "batch_ms": 4.306769371032715,
+    "sample_ms": 0.06729327142238617
+  },
+  {
+    "name": "CNN-LSTM",
+    "type": "deep",
+    "n_params": 199425,
+    "batch_ms": 2.661128044128418,
+    "sample_ms": 0.04158012568950653
+  },
+  {
+    "name": "CNN-BiLSTM",
+    "type": "deep",
+    "n_params": 397313,
+    "batch_ms": 4.75071907043457,
+    "sample_ms": 0.07422998547554016
+  },
+  {
+    "name": "CNN-Mamba orig",
+    "type": "mamba",
+    "n_params": 388289,
+    "batch_ms": 3.787360191345215,
+    "sample_ms": 0.05917750298976898
+  },
+  {
+    "name": "CNN-Mamba tuned",
+    "type": "mamba",
+    "n_params": 265921,
+    "batch_ms": 4.945015907287598,
+    "sample_ms": 0.07726587355136871
+  },
+  {
+    "name": "CNN-Mamba + Diff",
+    "type": "mamba",
+    "n_params": 267457,
+    "batch_ms": 4.5121049880981445,
+    "sample_ms": 0.07050164043903351
+  }
+]

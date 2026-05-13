@@ -1,0 +1,26 @@
+[
+  {
+    "direction": "fwd",
+    "name": "mamba_fwd",
+    "n_params": 227009,
+    "best_val_acc": 0.9052490183922298,
+    "best_val_loss": 0.16635991108518514,
+    "best_epoch": 23
+  },
+  {
+    "direction": "bwd",
+    "name": "mamba_bwd",
+    "n_params": 227009,
+    "best_val_acc": 0.9154784046290556,
+    "best_val_loss": 0.1664447224529402,
+    "best_epoch": 22
+  },
+  {
+    "direction": "bi",
+    "name": "mamba_bi",
+    "n_params": 265921,
+    "best_val_acc": 0.9238479024591858,
+    "best_val_loss": 0.1600100862435453,
+    "best_epoch": 23
+  }
+]

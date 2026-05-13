@@ -1,0 +1,4 @@
+direction,params,best_val_acc,best_val_loss,best_epoch
+fwd,227009,0.905249,0.166360,23
+bwd,227009,0.915478,0.166445,22
+bi,265921,0.923848,0.160010,23

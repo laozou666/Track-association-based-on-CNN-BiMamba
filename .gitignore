@@ -1,0 +1,36 @@
+# ========== 大数据（不上传 GitHub）==========
+/data/
+
+# ========== Python ==========
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# ========== Jupyter ==========
+.ipynb_checkpoints/
+
+# ========== IDE / 本地 ==========
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# ========== 可选：日志与临时 ==========
+*.log
+*.tmp
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ========== 若希望连中间特征也不上传，取消下行注释 ==========
+# output/traditional/pair_features.npz

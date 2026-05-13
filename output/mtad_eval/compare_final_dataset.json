@@ -1,0 +1,39 @@
+{
+  "final_dataset_present": true,
+  "train": {
+    "shape": [
+      67748,
+      350,
+      4
+    ],
+    "max_len_configured": 350,
+    "pos_ratio": 0.6790015941430005,
+    "length_median": 78.0,
+    "length_max": 350,
+    "length_min": 21
+  },
+  "val": {
+    "shape": [
+      9678,
+      350,
+      4
+    ],
+    "max_len_configured": 350,
+    "pos_ratio": 0.6789625955775986,
+    "length_median": 78.0,
+    "length_max": 350,
+    "length_min": 21
+  },
+  "test": {
+    "shape": [
+      19357,
+      350,
+      4
+    ],
+    "max_len_configured": 350,
+    "pos_ratio": 0.6790308415560262,
+    "length_median": 78.0,
+    "length_max": 350,
+    "length_min": 21
+  }
+}

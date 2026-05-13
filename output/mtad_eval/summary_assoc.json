@@ -1,0 +1,22 @@
+{
+  "n_scenes": 5000,
+  "tracks_total": 369167,
+  "tracks_per_scene_mean": 73.8334,
+  "tracks_per_scene_std": 152.85169142784935,
+  "tracks_per_scene_min": 10,
+  "tracks_per_scene_max": 2273,
+  "n_9001_total": 204552,
+  "n_9002_total": 164615,
+  "shared_mmsi_per_scene_mean": 21.9332,
+  "pos_pairs_total": 246956,
+  "neg_pairs_max_total": 35300177,
+  "pos_over_total": 0.006947283202839453,
+  "mmsi_suffix_top": {
+    "0": 246013,
+    "1": 123154
+  },
+  "source_counter": {
+    "9001": 204552,
+    "9002": 164615
+  }
+}
