@@ -30,7 +30,7 @@ pip install -r requirements.txt
 ## 数据集来源与生成方式
 
 ### 1. 原始数据（来源）
-
+- 原始数据集来源于公开数据集MTAD，链接https://www.scidb.cn/detail?dataSetId=c7d8dc56fe854ec2b084d075feb887fd。下载后，利用其真实场景下的数据集进行仿真即可。
 - 原始文件为按**场景**切片的船舶轨迹 CSV，位于 `data/raw/真实场景/`。
 - 单文件命名：`场景-{scene_id}.csv`（如 `场景-0.csv`）。
 - 单列字段示例：`MMSI`, `time`, `lat`, `lon`, `vel`, `cou`（纬度、经度、航速、航向等典型 AIS/轨迹字段）。
