@@ -1,0 +1,17 @@
+# Core numerics & data
+numpy>=1.23.0
+pandas>=1.5.0
+scipy>=1.10.0
+scikit-learn>=1.2.0
+
+# Deep learning (install PyTorch for your CUDA/CPU first; see README)
+torch>=2.1.0
+
+# CNN + Mamba association model
+mamba-ssm>=2.0.0
+# NOTE: mamba-ssm depends on causal-conv1d; pip usually pulls compatible wheels.
+# If build fails, install the wheel matching your torch/CUDA from the project release pages.
+
+# Utils
+tqdm>=4.65.0
+matplotlib>=3.7.0
