@@ -107,8 +107,8 @@ python ablation_cnn_mamba.py --mode train --config cnn1 --gpu 0
 - 航迹关联推理（英文结果）：`track_association_inference.py`
 - 中文推理：`track_association_inference_thesis.py`
 - 命令：`python track_association_inference_thesis.py --label 1 --length short --sample 3819 --model cnn_mamba_tuned`选取推理的模型和数据集，如果没有数据集，支持自定义两个航迹的csv文件，更改路径进行推理
-- 推理结果展示 ![可关联航迹](output\result\result_cnn_bilstm_label1_medium_s10004.png)
-- 推理结果展示 ![不可关联航迹](output\result\result_cnn_mamba_tuned_label0_medium_s94.png)
+- 推理结果展示 ![可关联航迹](output/result/result_cnn_bilstm_label1_medium_s10004.png)
+- 推理结果展示 ![不可关联航迹](output/result/result_cnn_mamba_tuned_label0_medium_s94.png)
 
 ---
 
@@ -120,6 +120,6 @@ python ablation_cnn_mamba.py --mode train --config cnn1 --gpu 0
 
 ## 端到端多源航迹关联系统
 本项目实现了端到端的网页推理效果 服务器进入`track_association_demo`文件夹，运行app3.py文件，本地进入网页http://localhost:7860/?
-网页推理结果展示 ![网页效果展示1](track_association_demo\demo1.png)
- ![网页效果展示2](track_association_demo\demo2.png)
+网页推理结果展示 ![网页效果展示1](track_association_demo/demo1.png)
+ ![网页效果展示2](track_association_demo/demo2.png)
 
